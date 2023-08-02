@@ -1,0 +1,118 @@
+{
+    "myData" : [
+        {
+            "row":1,
+            "category": "HVAC",
+            "priority": "high",
+            "activity": "Treated fresh air",
+            "planned": 3,
+            "startDate": "2023-02-17",
+            "endDate": "2023-03-02",
+            "dependOn": 0,
+            "precurserTask": "Vendor contract",
+            "status": "Done",
+            "taskOwner": "suresh",
+            "images":[]
+        },
+        {
+            "row":2,
+            "category": "HVAC",
+            "priority": "low",
+            "activity": "Ducting",
+            "planned": 15,
+            "startDate": "2023-02-28",
+            "endDate": "2023-03-14",
+            "dependOn": 0,
+            "precurserTask": "Execution drawings",
+            "status": "WIP",
+            "taskOwner":"ramesh",
+            "images":[]
+        },
+        {
+            "row":3,
+            "category": "HVAC",
+            "priority": "high",
+            "activity": "Gril, slot",
+            "planned": 15,
+            "startDate": "2023-02-24",
+            "endDate": "2023-03-20",
+            "dependOn": 2,
+            "precurserTask": "Vendor contract",
+            "status": "Done",
+            "taskOwner": "prakash",
+            "images":[]
+        },
+        {
+            "row":4,
+            "category": "HVAC",
+            "priority": "medium",
+            "activity": "Treated fresh air",
+            "planned": 3,
+            "startDate": "2023-02-10",
+            "endDate": "2023-03-16",
+            "dependOn": 2,
+            "precurserTask": "Gril, slot",
+            "status": "Pending",
+            "taskOwner": "",
+            "images":[]
+        },
+        {
+            "row":5,
+            "category": "Fire fighting",
+            "priority": "high",
+            "activity": "Execution drawing",
+            "planned": 3,
+            "startDate": "2023-02-17",
+            "endDate": "2023-03-02",
+            "dependOn": 4,
+            "precurserTask": "Drawing-R.C.P",
+            "status": "WIP",
+            "taskOwner": "",
+            "images":[]
+        },
+        {
+            "row":6,
+            "category": "Fire fighting",
+            "priority": "low",
+            "activity": "Execution drawing",
+            "planned": 9,
+            "startDate": "2023-01-22",
+            "endDate": "2023-02-12",
+            "dependOn": 5,
+            "precurserTask": "Drawing-R.C.P",
+            "status": "WIP",
+            "taskOwner": "",
+            "images":[]
+        },
+        {
+            "row":7,
+            "category": "Fire fighting",
+            "priority": "high",
+            "activity": "Execution drawing",
+            "planned": 13,
+            "startDate": "2023-02-07",
+            "endDate": "2023-03-02",
+            "dependOn": 2,
+            "precurserTask": "Drawing-R.C.P",
+            "status": "Done",
+            "taskOwner": "",
+            "images":[]
+        },
+        {
+            "row":8,
+            "category": "Fire fighting",
+            "priority": "high",
+            "activity": "Execution drawing",
+            "planned": 8,
+            "startDate": "2023-01-14",
+            "endDate": "2023-01-28",
+            "dependOn": 3,
+            "precurserTask": "Drawing-R.C.P",
+            "status": "Pending",
+            "taskOwner": "",
+            "images":[]
+        }
+    
+    ]
+    
+}
